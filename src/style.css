@@ -1,1 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(220, 161, 238);
+  }
+  
+  .container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+  }
+  .header {
+    margin: auto;
+    text-align: center;
+  }
+  .domain {
+    overflow: hidden;
+    margin: auto;
+    padding: 5px;
+    border: none;
+  }
+  #buttonDIV {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #domainBtn {
+    margin: auto;
+    color: black;
+    background-color: rgb(252, 249, 249);
+    font-size: larger;
+    border-radius: 5px;
+  }
+  
